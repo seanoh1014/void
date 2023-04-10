@@ -22,6 +22,9 @@ wireplumber &
 
 #dbus-run-session elogind
 
+# keymapping
+setxkbmap -option "caps:escape"
+
 # exec picom
 picom &
 
