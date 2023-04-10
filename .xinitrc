@@ -22,8 +22,12 @@ wireplumber &
 
 #dbus-run-session elogind
 
-# keymapping
-setxkbmap -option "caps:escape"
+# make CapsLock behave like Ctrl:
+setxkbmap -option ctrl:nocaps
+
+# # make short-pressed Ctrl behave like Escape:
+xcape -e 'Control_L=Escape'
+
 
 # exec picom
 picom &
