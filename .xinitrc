@@ -17,7 +17,7 @@ wireplumber &
 
 #dbus-run-session pipewire
 
-# execute elogind
+#execute elogind
 #exec elogind &
 
 #dbus-run-session elogind
