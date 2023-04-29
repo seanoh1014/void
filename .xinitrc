@@ -4,7 +4,7 @@
 # execute dwmblocks
 dwmblocks & 
 
-# set brightness as 5%
+# set brightness as 10%
 xbacklight -set 10% &
 
 # execute dunst
